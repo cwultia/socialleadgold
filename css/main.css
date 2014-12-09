@@ -1,0 +1,404 @@
+@charset "UTF-8";
+@font-face {
+    font-family: "QlassikBoldRegular";
+    font-style: normal;
+    font-weight: normal;
+    src: url("qlassikbold_tb-webfont.eot?iefix") format("eot"), url("qlassikbold_tb-webfont.woff") format("woff"), url("qlassikbold_tb-webfont.ttf") format("truetype"), url("qlassikbold_tb-webfont.svg#webfontHQOIymR5") format("svg");
+}
+body {
+    background-image: url("../img/bground.jpg");
+    background-repeat: repeat-x;
+    margin: 0;
+    padding: 0;
+}
+#main_wrapper {
+    background-image: url("../img/page_header.png");
+    background-position: -13px 233px;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    min-height: 500px;
+    width: 960px;
+}
+img {
+    border: medium none;
+}
+p {
+    color: #525252;
+    font-family: QlassikBoldRegular;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 18px;
+}
+a {
+    color: #c72e03;
+    font-family: QlassikBoldRegular;
+    font-size: 16px;
+    line-height: 18px;
+}
+h1 {
+    color: #3a3a3a;
+    font-family: QlassikBoldRegular;
+    font-size: 48px;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    color: #3a3a3a;
+    font-family: QlassikBoldRegular;
+    font-size: 36px;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+h3 {
+    color: #2c2c2c;
+    font-family: QlassikBoldRegular;
+    font-size: 24px;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+h4 {
+    color: #ffffff;
+    font-family: QlassikBoldRegular;
+    font-size: 18px;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+blockquote {
+    background-image: url("../img/quotes.png");
+    background-position: left top;
+    background-repeat: no-repeat;
+    color: #525252;
+    float: left;
+    font-family: QlassikBoldRegular;
+    font-size: 16px;
+    font-style: oblique;
+    margin: 23px 0 0;
+    padding: 0 0 0 33px;
+    text-align: left;
+    width: 430px;
+}
+pre {
+    color: #888888;
+    float: right;
+    font-family: QlassikBoldRegular;
+    font-size: 13px;
+    text-align: right;
+}
+div.hr hr {
+    display: none;
+}
+div.hr {
+    background: url("../img/hr.png") no-repeat scroll center center rgba(0, 0, 0, 0);
+    clear: both;
+    height: 30px;
+    margin: 30px 0 20px;
+}
+.center {
+    text-align: center;
+}
+.orange_title {
+    color: #c72e03;
+    font-family: QlassikBoldRegular;
+    font-size: 36px;
+    font-weight: normal;
+}
+.gray_title {
+    color: #3a3a3a;
+    font-family: QlassikBoldRegular;
+    font-size: 36px;
+    font-weight: normal;
+}
+.intro_text {
+    color: #525252;
+    font-family: QlassikBoldRegular;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 18px;
+    margin-top: 10px;
+}
+#top_logo {
+    float: left;
+    height: 50px;
+    margin-top: 15px;
+    width: 30%;
+}
+#top_phone {
+    color: #ded7cf;
+    float: right;
+    font-family: QlassikBoldRegular;
+    font-size: 24px;
+    font-weight: normal;
+    margin-top: 25px;
+    text-align: right;
+    width: 70%;
+}
+.left_container {
+    clear: left;
+    float: left;
+    margin-top: 50px;
+    text-align: left;
+    width: 50%;
+}
+.benefits_wrapper {
+    float: left;
+    margin-top: 35px;
+    text-align: left;
+    width: 410px;
+}
+.benefit_item {
+    float: left;
+    margin-top: 23px;
+    text-align: left;
+    width: 410px;
+}
+.benefit_item_right {
+    float: left;
+    margin-top: 23px;
+    text-align: left;
+    width: 460px;
+}
+.benefit_item_first {
+    float: left;
+    margin-top: 40px;
+    text-align: left;
+    width: 410px;
+}
+.benefit_item img, .benefit_item_first img, .benefit_item_right img {
+    float: left;
+    margin-right: 20px;
+}
+.benefit_item p, .benefit_item_first p, .benefit_item_right p {
+    color: #525252;
+    font-family: QlassikBoldRegular;
+    font-size: 14px;
+    line-height: 16px;
+}
+.download_button {
+    float: left;
+    margin: 25px 0 0;
+}
+.download_button a {
+    color: #c72e03;
+    font-family: QlassikBoldRegular;
+    font-size: 14px;
+    line-height: 25px;
+    text-decoration: underline;
+}
+.download_button a:hover {
+    color: #525252;
+    text-decoration: underline;
+}
+.right_container {
+    float: right;
+    margin-top: 10px;
+    width: 50%;
+}
+#video_top {
+    margin: 0 10px;
+    width: 100%;
+}
+.right_content {
+    margin: 0 10px;
+    width: 100%;
+}
+.right_content2 {
+    float: right;
+    margin: 0 auto;
+    width: 50%;
+}
+.right_content .orange_title, .full_width .orange_title {
+    color: #c72e03;
+    font-family: QlassikBoldRegular;
+    font-size: 28px;
+    font-weight: normal;
+}
+.right_content .gray_title, .full_width .gray_title {
+    color: #3a3a3a;
+    font-family: QlassikBoldRegular;
+    font-size: 28px;
+    font-weight: normal;
+}
+.right_content .download_button img {
+    float: left;
+    margin: 0 20px 0 0;
+}
+#footer_wrapper {
+    background-image: url("../img/footer_bground.jpg");
+    background-repeat: repeat-x;
+    clear: both;
+    min-height: 186px;
+}
+#footer_container {
+    margin: 0 auto;
+    width: 960px;
+}
+#footer_left {
+    float: left;
+    margin-top: 44px;
+    width: 400px;
+}
+#footer_middle {
+    color: #8f8d8b;
+    float: left;
+    font-family: QlassikBoldRegular;
+    font-size: 12px;
+    margin-top: 44px;
+    text-align: center;
+    width: 170px;
+}
+#footer_right {
+    float: right;
+    margin-top: 44px;
+    text-align: right;
+    width: 300px;
+}
+#footer_right ul.social li {
+    display: inline;
+    margin: 0 0 0 7px;
+    padding: 2px 0 0;
+}
+.social {
+    padding: 0;
+}
+.social img, img.a {
+    padding: 2px 0 0;
+}
+.social a:hover {
+}
+.full_width {
+    margin: 0 auto;
+    padding-bottom: 50px;
+    width: 960px;
+}
+.full_width ul.gallery li {
+    display: inline;
+    margin: 0 17px 0 0;
+}
+.full_width2 {
+    clear: both;
+    margin: 0 auto;
+    padding-bottom: 50px;
+    width: 960px;
+}
+.full_width2 ul.gallery li {
+    display: inline;
+    margin: 0 17px 0 0;
+}
+#gallery {
+    padding: 20px 0;
+}
+#gallery img, img.a {
+    padding: 2px 0 0;
+}
+ul {
+    line-height: 1.8em;
+    list-style: inside none disc;
+    margin: 20px 0 0;
+    padding: 0;
+}
+li {
+    font-family: QlassikBoldRegular;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+}
+.tipsy {
+    background-image: url("../img/tipsy.gif");
+    background-repeat: no-repeat;
+    color: #1f242f;
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 11px;
+    margin-top: 10px;
+    opacity: 1;
+    padding: 5px;
+}
+.tipsy-inner {
+    background-color: #0969a6;
+    color: white;
+    max-width: 500px;
+    padding: 5px 8px 4px;
+    text-align: center;
+}
+.tipsy-inner {
+}
+.tipsy-north {
+    background-position: center top;
+}
+.tipsy-south {
+    background-position: center bottom;
+}
+.tipsy-east {
+    background-position: right center;
+}
+.tipsy-west {
+    background-position: left center;
+}
+.pp_nav p {
+    color: #8d8e92;
+    font-family: QlassikBoldRegular;
+    font-size: 20px;
+    letter-spacing: -0.05em;
+    margin: 10px 0 5px 15px;
+    text-shadow: none;
+    z-index: 9999;
+}
+.pp_description {
+    color: #8d8e92;
+    font-family: QlassikBoldRegular;
+    font-size: 20px;
+    letter-spacing: -0.05em;
+    margin: 10px 0 5px 15px;
+    text-shadow: none;
+    z-index: 9999;
+}
+.contact_wrapper {
+    float: left;
+}
+.input-submit {
+    background-color: transparent;
+    background-image: url("../img/subscribe.png");
+    background-repeat: no-repeat;
+    border: medium none;
+    cursor: pointer;
+    height: 35px;
+    line-height: 42px;
+    width: 87px;
+}
+input[type="text"] {
+    background-color: #e2dcd7;
+    border: medium none;
+    border-radius: 3px;
+    color: #333333;
+    float: left;
+    font-family: QlassikBoldRegular;
+    font-size: 14px;
+    margin-right: 10px;
+    padding: 8px;
+    width: 150px;
+}
+input[type="text"]:focus {
+    border: medium none;
+    border-radius: 3px;
+}
+.form_error {
+    border: 1px solid #406a27;
+}
+#thanks {
+    background-color: #f2f3ea;
+    border: 1px solid #bcbcbc;
+    padding: 0 10px 0 0;
+    text-align: left;
+    width: 400px;
+}
+#contactmessage {
+    clear: both;
+    color: #ffffff;
+    font-family: QlassikBoldRegular;
+    font-size: 20px;
+    padding-top: 20px;
+    text-align: left;
+}
