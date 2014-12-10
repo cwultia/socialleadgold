@@ -2,8 +2,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    
-<!-- Meta Tag for responsive -->
 <meta name=”viewport” content=”width=1024, minimal-ui”>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     
@@ -12,9 +10,8 @@
 
 <link href="css/main.css" rel="stylesheet" type="text/css" />
 <link href="css/prettyPhoto.css" rel="stylesheet" type="text/css" />
-    
+<link href="favicon.ico" rel="icon" type="image/x-icon"/>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js" ></script>
-<!--Load Fallback if google not avalible-->
 <script>
 if (!window.jQuery) {
     document.write('<script src="js/jquery-1.11.0.min.js"><\/script>');
@@ -27,7 +24,6 @@ if (!window.jQuery) {
 <script src="js/retina.js" type="text/javascript" charset="utf-8"></script> 
 <script>
   $(document).ready(function(){
-    // Target your .container, .wrapper, .post, etc.
     $("#video_top").fitVids();
   });
 </script>
@@ -39,19 +35,14 @@ if (!window.jQuery) {
 </head>
 <body>
 
-<div id="main_wrapper"><!-- Start of main_wrapper -->
-
-
-	<div id="top_logo"><!-- Start of top_logo -->
+<div id="main_wrapper">
+	<div id="top_logo">
   		<img src="img/logo.png" width="155" height="46" alt="Social Lead Gold" />
-  	</div><!-- End of top_logo -->
+  	</div>
     
-    
-    <div id="top_phone"><!-- Start of top_phone -->
+    <div id="top_phone">
     Facebook Active User Scraper Software
-    </div><!-- End of top_phone -->
-    
-    
+    </div>
     
 <div class="left_container"><!-- Start of left_container -->
     	<h1>Social Lead Gold</h1>
@@ -111,7 +102,7 @@ if (!window.jQuery) {
   <div class="right_container"><!-- Start of right_container -->
     
     <div id="video_top"><!-- Start of video -->
-        <iframe src="http://www.youtube.com/embed/azYkLAkCWw4?rel=0&amp;controls=0&amp;showinfo=0" width="480" height="270" frameborder="0"></iframe>
+        <iframe src="http://www.youtube.com/embed/azYkLAkCWw4?rel=0&amp;controls=0&amp;showinfo=0"></iframe>
     </div><!-- End of video -->
     
     <div class="right_content"><!-- Start of right_content -->
@@ -227,34 +218,8 @@ if (!window.jQuery) {
 
 </div><!-- end of footer wrapper -->
 
-    
-
- 
-<!-- *************************************************************************
-*************************  TIPSY SCRIPT LEAVE HERE!  *************************
-************************************************************************** -->
-
 <script type='text/javascript'>
-  $(function() {
-    
-    $('#example-1').tipsy();
-    
-    $('#north').tipsy({gravity: 'n'});
-    $('#south').tipsy({gravity: 's'});
-    $('#east').tipsy({gravity: 'e'});
-    $('#west').tipsy({gravity: 'w'});
-    
-    $('#auto-gravity').tipsy({gravity: $.fn.tipsy.autoNS});
-    
-    $('.fade').tipsy({fade: true});
-    
-    $('#example-custom-attribute').tipsy({title: 'id'});
-    $('#example-callback').tipsy({title: function() { return this.getAttribute('original-title').toUpperCase(); } });
-    $('#example-fallback').tipsy({fallback: "?" });
-    
-    $('#example-html').tipsy({html: true });
-    
-  });
+$(function(){$("#example-1").tipsy();$("#north").tipsy({gravity:"n"});$("#south").tipsy({gravity:"s"});$("#east").tipsy({gravity:"e"});$("#west").tipsy({gravity:"w"});$("#auto-gravity").tipsy({gravity:$.fn.tipsy.autoNS});$(".fade").tipsy({fade:true});$("#example-custom-attribute").tipsy({title:"id"});$("#example-callback").tipsy({title:function(){return this.getAttribute("original-title").toUpperCase()}});$("#example-fallback").tipsy({fallback:"?"});$("#example-html").tipsy({html:true})});
 </script>
 
 </body>
